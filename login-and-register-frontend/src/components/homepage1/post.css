@@ -1,0 +1,88 @@
+.postpage{
+  background-color:white;
+  justify-content:center;
+  position: relative;
+  align-items: center;
+  margin-bottom: 5cm;
+  
+}
+
+.homepage {
+  background-color: #52555a;
+  width: 110vw;
+  height: 100vh;
+  justify-content:center;
+  position: relative;
+  align-items: center;
+}
+h1{
+  font-size: 40px;
+  color: black; 
+  
+}
+.heading1{
+  
+   color: white;
+   text-align: center;
+   align-items: center;
+}
+.post {
+  
+  width: 500px;
+  height:700px;
+  background: #354152;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  background-color: #354152;
+  color: #01050c;
+  margin: 0;
+  font-size: large;
+  font-weight: bold;
+  padding :25px 15px 5px 15px;
+  
+  background-image: url("../login/corona6.jpg");
+  margin-left: 3cm;
+}
+
+
+.post > input {
+  
+  border-radius: 8px;
+  border: .2px solid #757f8d;
+  background-color: #2f3541;
+  outline: none;
+  color: #01040a;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: large;
+
+}
+
+.post >input:hover{background-color: #808894;}
+.post >input:focus{background-color: rgb(245, 243, 247);}
+.post > .button {
+  background: #110735;
+  border: 1px solid #fff;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.tabletogether{
+  display: flex;
+  position: relative;
+  orientation: landscape;
+  align-items: center;
+}
+.head1{
+  color: #110735;
+}
